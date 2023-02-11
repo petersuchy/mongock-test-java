@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://localhost:27017/"
+      database: "notifHub"
+
+mongock:
+  migration-scan-package: "org.example.config.db.migration"
